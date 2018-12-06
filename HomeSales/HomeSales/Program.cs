@@ -24,21 +24,31 @@ namespace HomeSales
                 if ("F" == input || "f" == input)
                 {
                     double SalesofHomes = 0;
+                    SalesofHomes++;
                     FrancisTotal = SalesofHomes + FrancisTotal;
                     WriteLine(FrancisTotal);
                 }
                 else if ("E" == input || "e" == input)
                 {
                     double SalesofHomes = 0;
+                    SalesofHomes++;
                     EdwardTotal = SalesofHomes + EdwardTotal;
                     WriteLine(EdwardTotal);
                 }
                 else if ("D" == input || "d" == input)
                 {
                     double SalesofHomes = 0;
+                    SalesofHomes++;
                     DanielleTotal = SalesofHomes + DanielleTotal;
                     WriteLine(DanielleTotal);
                 }
+                else if ("Z" == input || "z" == input)
+                {
+                    WriteLine("Danielle" + DanielleTotal);
+                    WriteLine("Edward" + EdwardTotal);
+                    WriteLine("Francis " + FrancisTotal);
+                }
+                  
             }      
             
 
